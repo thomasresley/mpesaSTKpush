@@ -1,0 +1,25 @@
+{
+    "name": "thomas/mpesaSTKpush",
+    "type": "library",
+    "description": "Mpesa STK push library for initiating Mpesa transactions.",
+    "keywords": ["composer", "autoload"],
+    "homepage": "",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Rakwach",
+            "email": "thomasrakwach@gmail.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ComposerIncludeFiles\\": "src"
+        }
+    },
+    "extra": {
+        "class": "ComposerIncludeFiles\\Plugin"
+    }
+}
